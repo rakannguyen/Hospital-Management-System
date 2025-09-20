@@ -3,6 +3,7 @@ import doctorImg from "../../assets/images/doctor-img02.png";
 import starIcon from "../../assets/images/Star.png";
 import DoctorAbout from "./DoctorAbout";
 import Feedback from "./Feedback";
+import SidePanel from "./SidePanel";
 
 const DoctorDetails = () => {
   const [tab, setTab] = useState("about");
@@ -70,7 +71,9 @@ leading-4 lg:text-[16px] lg:leading-7 font-semibold rounded"
             </div>
           </div>
 
-          <div></div>
+          <div>
+            <SidePanel />
+          </div>
         </div>
       </div>
     </section>
